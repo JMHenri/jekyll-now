@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello, welcome to my blog. This isn't my personal blog, it is meant for my technical topics and posts. Topics covered include general web application security, and general full stack development.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jakehenri@gmail.com](mailto:jakehenri@gmail.com)
