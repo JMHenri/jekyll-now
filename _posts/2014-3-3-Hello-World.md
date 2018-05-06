@@ -11,7 +11,7 @@ excerpt: this is a post about revoking read access to passwords
 
 For many small business owners and small projects. All you can afford with your time and money is a simple, pre-defined full stack, with some additions and hardening based on your unique needs.
 
-Inn my case, I'm running a typical, simple MEAN stack, setup on AWS. My website does however require high security, because it manages a large volume of assets.
+In my case, I'm running a typical, simple MEAN stack, setup on AWS. My website does however require high security, because it manages a large volume of assets.
 Also, since this is the blockchain, a data breach can result in losing everything. There are no banks to keep me safe, and it's not just a few emails.
 
 So I needed something that was foolproof. No matter how badly things went, even if my server is compromised, customer funds must be safe.
