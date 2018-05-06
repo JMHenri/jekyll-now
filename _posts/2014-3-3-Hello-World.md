@@ -1,6 +1,9 @@
 ---
 layout: post
+
 title: One-Man MEAN Stacks : Keeping Assets Safe in a Server Breach
+excerpt: this is a post about revoking read access to passwords
+
 ---
 
 
