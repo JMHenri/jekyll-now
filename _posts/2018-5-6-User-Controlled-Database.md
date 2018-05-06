@@ -69,6 +69,6 @@ This is another reason why I abandoned this. The muddling of security. Each secu
 If you choose to not implement read access in any sense, however, then the problem does not exist.
 
 
-####Summary
+Summary
 
 *You don't need to read your password hashes. You don't need to read your user emails, you don't need to read or write to much of anything, your users do it. It's not easy, and takes an entire day to set up. If you're a small website in desperate need of data-confidentiality. Consider this architecture. This article is merely one way to accomplish this separation.*
