@@ -3,8 +3,8 @@ layout: post
 title: One-Man MEAN Stacks : Keeping Assets Safe in a Server Breach
 ---
 
-Note: Security and Architecture posts do not reflect the current state of vetpool.io's security posture or architecture. They are created to share our ideas, developments, and to in general, make
-coding less confusing and more robust for everyone.
+
+
 
 For many small business owners and small projects. All you can afford with your time and money is a simple, pre-defined full stack, with some additions and hardening based on your unique needs.
 
@@ -13,7 +13,7 @@ Also, since this is the blockchain, a data breach can result in losing everythin
 
 So I needed something that was foolproof. No matter how badly things went, even if my server is compromised, customer funds must be safe.
 
-
+This post lays out a proposed solution. In my opinion, this can be extended to many websites as a protocol which protects
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
