@@ -3,7 +3,7 @@ layout: post
 
 title: You don't need read access to your passwords.
 
-excerpt: A step-by-step breakdown of the permissions requirements of a MEAN/MERN server shows that many web-facing servers don't need to fear data exfiltration.
+excerpt: A step-by-step breakdown of the permission requirements on a MEAN/MERN server shows that many web-facing servers don't need to fear data exfiltration.
 
 ---
 
@@ -43,13 +43,14 @@ You never need to read a hash. Only the database-server needs to the read the ha
 ##### Password Resets
 Password resets are user-authenticated. If your database-server handles the emails, users never even need to interact with your web-server.
 
-However, this is stupid, you'll end up with email reset links that go to funny places, and people won't trust it. On top of that, your database-server shouldn't have any ports accessible to the internet.
+This is a great starting point, but ultimately a bad idea. You'll end up with email reset links that go to funny places, and people won't trust it. On top of that, your database-server shouldn't have any ports accessible to the internet.
 
-But this is fine. We've sort of forgotten this, but by sending out reset links, users can Authenticates, AND authorize their own password resets. The authorization cryptography is already handled in the default logic of a password reset.
+This is fine. We've sort of forgotten this, but by sending out reset links, users can authenticate, AND authorize their own password resets. The authorization and authentication cryptography is already handled in the default logic of a password reset.
 
 The database-server can send out a reset link using the web-server as a proxy.
-The database-server can received authorization and authentication by using the web-server as a reverse proxy.
+The database-server can receive authorization and authentication by using the web-server as a reverse proxy to retreive the key.
 
+The data must remain encrypted so that the web-server cannot read it. This is a big weak point, because setting up the routing adds confusion and complexity to small architectures.
 
 ##### Email Resets
 
@@ -57,7 +58,7 @@ This works the exact same way as a password reset.
 
 ##### Displaying user data?
 
-It can be done by setting up a read-access system to your database-server. This lets you pull out fun information like usernames and emails to keep your site looking up to date and informative
+It can be done by setting up an account with read-access on your web-server to your database. This lets you pull out fun information like usernames and emails to keep your site looking up to date and informative. With good permissioning, it will only be able to read what you need it to read.
 
 Setting up a read system like this does destroy one of the two benefits of this separation of duties.
 1. ~~My user data is immune to compromise via injections.~~
@@ -69,4 +70,4 @@ If you choose to not implement read access in any sense, however, then the probl
 
 
 ####Summary
-*You don't need to read your password hashes. You don't need to read your user emails, you don't need to read or write to much of anything, your users do it. It's not easy, and takes an entire day to set up. If you're a small website in desperate need of data-confidentiality. Consider this architecture.*
+*You don't need to read your password hashes. You don't need to read your user emails, you don't need to read or write to much of anything, your users do it. It's not easy, and takes an entire day to set up. If you're a small website in desperate need of data-confidentiality. Consider this architecture. This article is merely one way to accomplish this separation.*
