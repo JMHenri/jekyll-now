@@ -55,7 +55,7 @@ You are free to come up with any system you like, this guide is going to be sett
 
 Note : Expect me to reference my old system to help you through these articles, but don't expect it to be the same. Im applying new and better techniques for these articles.
 
-##Part 1: Economic Concepts and Setbacks.
+## Part 1: Economic Concepts and Setbacks.
 
 * Economic Decisions
     * How do I do it?
