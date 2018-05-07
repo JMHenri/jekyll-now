@@ -38,7 +38,8 @@ You'll need money to set aside to play with. At least 200$ USD for testing, at l
 Arbitrage is the free money of trading. When Bitcoin costs 500 dollars on exchange A, and 400 dollars on exchange B, simply buy a bitcoin on exchange B and sell on exchange A, and viola! you've evened out the market a bit, and made 100 bucks in the process.
 
 A little deeper - Here's some log output from one of my bots :
-coin mgo is {"btcBuy":1.0098327195601664,"ethBuy":0.9799523167228422} Mon May 7 2018 14:46:51 GMT-0400 (Eastern Daylight Time)
+
+*coin mgo ratios : {"btcBuy":1.0098327195601664,"ethBuy":0.9799523167228422} Mon May 7 2018 14:46:51 GMT-0400 (Eastern Daylight Time)*
 
 In my system, this means, "The derivative change in USD (after conversions) for buying MGO with BTC and immediately selling with ETH is +0.9% of the current value without fees calculated in"
 
