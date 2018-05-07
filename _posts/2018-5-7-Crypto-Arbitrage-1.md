@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Crypto-Arbitrage: Profit from inconsistency. Part 1, the Gist.
+title: Crypto-Arbitrage, Profit from inconsistency. Part 1, the Gist.
 
 excerpt: A step-by-step cognitive guide to creating arbitrage engines.
 

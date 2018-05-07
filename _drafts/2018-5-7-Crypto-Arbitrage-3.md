@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Crypto-Arbitrage: Profit from inconsistency. Part 3, the Code.
+title: Crypto-Arbitrage, Profit from inconsistency. Part 3, the Code.
 
 excerpt: A step-by-step hackdown into the most lucrative and least secured sites we've ever seen.
 
