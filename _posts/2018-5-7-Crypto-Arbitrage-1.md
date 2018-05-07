@@ -1,13 +1,15 @@
 ---
 layout: post
 
-title: Crypto-Arbitrage: Profit from inconsistency. Part 1.
+title: Crypto-Arbitrage: Profit from inconsistency. Part 1, the Gist.
 
 excerpt: A step-by-step cognitive guide to creating arbitrage engines.
 
 published: true
 
 ---
+
+
 During the Crypto Boom of 2018 there was a lot to be excited about if you were into bug-hunting, hacking, or just learning about new technology in general.
 
 Everybody and their mother was trying to make an exchange, often to disastrous results. (But luckily, not THAT often).
