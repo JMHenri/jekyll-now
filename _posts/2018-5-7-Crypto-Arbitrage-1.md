@@ -22,7 +22,7 @@ tl;dr, and quick lessons learned: Don't bother with robot trading if you're not 
 
 Regardless, a ton of people are interested in this space. So lets take a programmatic and economic dive in.
 
-##Note for prospective builders:
+## Note for prospective builders:
 The architecture here is introductory. Don't follow along. Read every part AND part 4 (advanced concepts for profitability), or you will end up with a system that can't compete.
 
 ## Pre-requisites to read this:
