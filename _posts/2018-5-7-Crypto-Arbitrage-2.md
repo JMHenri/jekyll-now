@@ -21,18 +21,18 @@ This is a short one. It's just here to give you a sense of how to look for a goo
 
 ## Wherein I ramble about choosing a price point to sell at.
 
-Consider Difference (D) to be the % profit you will made during an arbitrage operation.
+Consider Difference (D) to be the % profit you will make during an arbitrage operation.
 Volume Above D (V) is all of the volume available to you above your difference, or, the assets that you can capitalize on.
-Profit over time = P/t is D*V/t.
+Profit over time = P/t is D*V /t... Sorta.
 
-I'm not going to get really deep into any of the equations that relate price, and volume, and distributions, because I'm really bad at math and you don't wanna see it. It's also far too complicated to be useful, instead I wrote some code to show you whats going on.
+I'm not going to get into any of the equations that relate price, and volume, and distributions, because I'm really bad at math and you don't wanna see it. It's also far too complicated to be useful, instead I wrote some code to show you whats going on.
 
 
-Heres where I put my graphic design still to the test.
+Here's where I put my graphic design skills to the test.
 
 https://codepen.io/BunzoBunaldi/pen/erQBEx?editors=0011
 
-Sorry.
+Ok it kinda looks like an old GameMaker game.
 
 Anyways. Look at this snippet, also click around on it. In this, you can set up a hypothetical selling point(the green line), and see how much money you'd made if that were what you actually chose. It's pretty close to what happens in real life.
 
@@ -59,4 +59,6 @@ So here's how to apply this : if you look at pricing data, and are calculating a
 
 Example. Over the course of 3 hours, TRX arbitrage fluctuates between -1.1% profit and 1.1% profit, after fees, it transforms to -1.5 and .7% profit. A reasonable heuristic is to set your transformed trading price at 1/3 of .7% or .233%. Which is .633 without a transform.
 
-I know that was probably rather poorly written. Uhh. Sorry.
+##The End
+
+Yes, it's the end of the article. It took me a really long time to make the javascript snippet so I'm gonna finish it later.
