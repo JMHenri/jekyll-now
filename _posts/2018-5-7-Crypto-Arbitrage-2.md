@@ -32,9 +32,9 @@ Heres where I put my graphic design still to the test.
 
 https://codepen.io/BunzoBunaldi/pen/erQBEx?editors=0011
 
-(uhhh)
+Sorry.
 
-Look at this snippet, also click around on it. You can set up a hypothetical selling point. It's pretty close to what happens in real life.
+Anyways. Look at this snippet, also click around on it. In this, you can set up a hypothetical selling point(the green line), and see how much money you'd made if that were what you actually chose. It's pretty close to what happens in real life.
 
 *Y represents profitability, or D. positive Y values mean that an asset has a bid and an order which allow for positive arbitrage.
 
