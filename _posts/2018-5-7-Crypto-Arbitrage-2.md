@@ -34,7 +34,7 @@ https://codepen.io/BunzoBunaldi/pen/erQBEx?editors=0011
 
 Ok it kinda looks like an old GameMaker game.
 
-Anyways. Look at this snippet, also click around on it. In this, you can set up a hypothetical selling point(the green line), and see how much money you'd made if that were what you actually chose. It's pretty close to what happens in real life.
+Anyways. Look at this snippet, also click around on it. In this, you can set up a hypothetical selling point(the green line), and see how much money you'd make if that were what you actually chose. It's pretty close to what happens in real life.
 
 *Y represents profitability, or D. positive Y values mean that an asset has a bid and an order which allow for positive arbitrage.
 
