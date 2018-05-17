@@ -5,7 +5,7 @@ title: Crypto-Arbitrage, Profit from inconsistency. Part 2.
 
 excerpt: Picking a price to sell at.
 
-published: false
+published: true
 
 ---
 
@@ -19,7 +19,7 @@ This is a short one. It's just here to give you a sense of how to look for a goo
 
 2. There is always a trading fee.
 
-## Wherein I ramble about choosing a price point.
+## Wherein I ramble about choosing a price point to sell at.
 
 Consider Difference (D) to be the % profit you will made during an arbitrage operation.
 Volume Above D (V) is all of the volume available to you above your difference, or, the assets that you can capitalize on.
