@@ -59,6 +59,6 @@ So here's how to apply this : if you look at pricing data, and are calculating a
 
 Example. Over the course of 3 hours, TRX arbitrage fluctuates between -1.1% profit and 1.1% profit, after fees, it transforms to -1.5 and .7% profit. A reasonable heuristic is to set your transformed trading price at 1/3 of .7% or .233%. Which is .633 without a transform.
 
-##The End
+## The End
 
 Yes, it's the end of the article. It took me a really long time to make the javascript snippet so I'm gonna finish it later.
