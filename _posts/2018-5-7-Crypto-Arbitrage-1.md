@@ -10,7 +10,7 @@ published: true
 ---
 
 
-During the Crypto Boom of 2018 there was a lot to be excited about if you were into bug-hunting, hacking, or just learning about new technology in general.
+During the Crypto Boom of 2017 there was a lot to be excited about if you were into bug-hunting, hacking, or just learning about new technology in general.
 
 Everybody and their mother was trying to make an exchange, often to disastrous results. (But luckily, not THAT often).
 
@@ -47,7 +47,7 @@ In my system, this means, "The derivative change in USD (after conversions) for 
 
 I've made a system that uses two base currencies, BTC and ETH. When I can buy MGO for 23 dollars using ethereum, and sell it for 24 dollars using bitcoin. That's where I take profit.
 
-How much MGO do I buy and sell, exactly? That's covered in the Math section.
+How much MGO do I buy and sell, exactly? That's covered in the next section.
 How do I do it, exactly? That's covered in the Code section.
 
 This section is for understanding the trading system we are going to use as our use case. Then we'll break it down and make it work later.
@@ -56,7 +56,6 @@ You are free to come up with any system you like, this guide is going to be sett
 Note : Expect me to reference my old system to help you through these articles, but don't expect it to be the same. Im applying new and better techniques for these articles.
 
 ## Part 1: Economic Concepts and Setbacks.
-
 * Economic Decisions
     * How do I do it?
     * Are prices random?
@@ -65,7 +64,6 @@ Note : Expect me to reference my old system to help you through these articles, 
 
 
 #### How do I do it?
-
 The best system is an inter-site system. This means you hold an asset (say, bitcoin), on multiple exchanges, and hook up to multiple apis. When the price differs on the two sites, you capitalize.
 This system is the best for many reasons that I won't get into. My main love for it comes from the fact that it is the basic balancing force in markets.
 
@@ -80,7 +78,6 @@ So, in an abstract sense, inter-site trading puts you at the lowest level, there
 These are what you want in an arbitrage system, and you get the best bang for your buck when you do it with multiple sites on the same coin.
 
 #### Are the prices random?
-
 Do we consider the price of an asset random, or not?
 
 In short : Nope.
@@ -92,13 +89,11 @@ The vast majority of companies fail. If you think it's cute to hold 100 bucks of
 An easy lesson to learn and an easy lesson to share. So other than that, yeah, they are random, or else we'd make a trading machine, not an arbitrage machine.
 
 #### What can I hold then
-
 It's up to you. Arbitrage in a hypervolatile asset space will only net you hyper-volatile assets. For this guide, our hypothetical robot will hold tether and bitcoin, extend it to anything you consider safe.
 
 I recommend holding ethereum, bitcoin, and tether. If you want to actually be the person who finds an unbotted arbitrage pair, though, you'll have to hold more. (or implement complicated techniques involving many trades)
 
 #### What is the price of an asset?
-
 A great metric to use, especially for arbitrage, is the volume weighted average price. It's pretty straightforward from the name.
 Big exchanges like Binance have more say, little exchanges like COSS have less say.
 
@@ -109,7 +104,6 @@ It's fine to calculate it yourself, the top 3-4 exchanges take up a big majority
 bitcoinaverage.com is great, but a paid service. Arbitrage unfortunately requires far too many price refreshes to qualify for the free tier.
 
 #### Sooo how is it really *really* gonna work?
-
 Simply (on the surface)
 
 We will hold a bitcoin and tether mix, ~1000$ of each, on two websites. Binance and GDAX.
@@ -118,4 +112,4 @@ When the difference in price reaches a certain threshhold (say .5%) we will sell
 
 Wallets do this thing where they tend to empty out. Once a wallet is emptied, it will be given a re-fill by the largest wallet, the formula for how much to give it will be in the math section.
 
-The math section is by far the most complicated. I am not sure yet whether or not I'll include statistical analysis to find your optimal sell point.
+The math section is by far the most complicated. I am not sure yet whether or not I'll include statistical analysis to find your optimal sell point. But I’ll do my best to provide a good foundation.
